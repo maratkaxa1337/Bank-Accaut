@@ -22,6 +22,7 @@
     <Property Name="BirthPlace" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="PassportSeries" Type="int" Nullable="false" />
     <Property Name="PassportNumber" Type="int" Nullable="false" />
+    <Property Name="Image" Type="image" />
   </EntityType>
   <EntityType Name="Role">
     <Key>

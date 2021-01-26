@@ -4,8 +4,8 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="184509393e7c43cf867cae148da84587" Name="Diagram1">
-        <EntityTypeShape EntityType="dbBankModel.Bank" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+      <Diagram DiagramId="c21ebe3cece94e029e610c2747e0f9db" Name="Diagram1">
+        <EntityTypeShape EntityType="dbBankModel.Bank" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
         <EntityTypeShape EntityType="dbBankModel.Passport" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
         <EntityTypeShape EntityType="dbBankModel.Role" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="dbBankModel.SignIn" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />

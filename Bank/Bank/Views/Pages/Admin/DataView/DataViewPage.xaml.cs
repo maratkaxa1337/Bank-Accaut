@@ -1,4 +1,5 @@
 ﻿using Bank.Context;
+using Bank.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,12 +29,58 @@ namespace Bank.Views.Pages.Admin.DataView
 
         private void TxbSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            DataView.ItemsSource = ConnectContext.db.Passport.Where(item => item.FirstName.Contains(TxbSearch.Text) || item.Gender.Contains(TxbSearch.Text)).ToList();
         }
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             DataView.ItemsSource = ConnectContext.db.Passport.ToList();
+        }
+
+        private void ButtonBack_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
+        }
+
+        private void ButtonRemove_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                 Passport removePassort = (Passport)DataView.SelectedItem;
+
+                if (removePassort != null)
+                    if (MessageBox.Show("Вы действительно хотите удалить данные строку?", "Уведомление", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes) 
+                {
+                    {
+                        ConnectContext.db.Passport.Remove(removePassort);
+                        ConnectContext.db.SaveChanges();
+                        Page_Loaded(null, null);
+                    }
+                }
+                else
+                {
+                    throw new Exception("Вы не выбрали ни одного элемента");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, ex.Source, MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void ButtonAdd_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonEdit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonInfo_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

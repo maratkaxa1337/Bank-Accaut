@@ -23,6 +23,7 @@
           <ScalarProperty Name="BirthPlace" ColumnName="BirthPlace" />
           <ScalarProperty Name="PassportSeries" ColumnName="PassportSeries" />
           <ScalarProperty Name="PassportNumber" ColumnName="PassportNumber" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

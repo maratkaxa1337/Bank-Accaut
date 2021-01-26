@@ -24,6 +24,9 @@
                 <TextBox x:Name="TxbSearch" Width="250" FontSize="19" TextChanged="TxbSearch_TextChanged"/>
 
             </StackPanel>
+            <StackPanel>
+                <Button x:Name="ButtonBack"  Content="Назад" HorizontalAlignment="Left" Width="144" Height="30" VerticalAlignment="Bottom" Click="ButtonBack_Click"/>
+            </StackPanel>
             
         </Grid>
 
@@ -51,6 +54,21 @@
                     
                 </DataGrid>
                 
+            </StackPanel>
+            
+        </Grid>
+
+        <Grid Grid.Row="2">
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <Button x:Name="ButtonRemove" Content="Удалить" FontFamily="Arial" Width="200" Height="30" Click="ButtonRemove_Click"/>
+                <Button x:Name="ButtonAdd" Content="Добавить" FontFamily="Arial" Width="200" Height="30" Margin="10 0 10 0" Click="ButtonAdd_Click"/>
+                <Button x:Name="ButtonEdit" Content="Редактировать" FontFamily="Arial" Width="200" Height="30" Margin="0 0 10 0" Click="ButtonEdit_Click"/>
+                <Button x:Name="ButtonInfo" Content="Информация" FontFamily="Arial" Width="200" Height="30" Margin="0 0 10 0" Click="ButtonInfo_Click"/>
+               
+                
+
             </StackPanel>
             
         </Grid>

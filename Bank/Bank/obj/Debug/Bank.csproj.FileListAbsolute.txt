@@ -24,3 +24,31 @@ E:\Сбор моих программы на Любом языке\C#\Bank\Bank\
 E:\Сбор моих программы на Любом языке\C#\Bank\Bank\obj\Debug\Bank_Content.g.cs
 E:\Сбор моих программы на Любом языке\C#\Bank\Bank\obj\Debug\Views\Pages\Admin\DataView\DataViewPage.baml
 E:\Сбор моих программы на Любом языке\C#\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\Marat C#\Bank-Accaut\Bank\Bank\bin\Debug\Bank.exe.config
+D:\Marat C#\Bank-Accaut\Bank\Bank\bin\Debug\Bank.exe
+D:\Marat C#\Bank-Accaut\Bank\Bank\bin\Debug\Bank.pdb
+D:\Marat C#\Bank-Accaut\Bank\Bank\bin\Debug\EntityFramework.dll
+D:\Marat C#\Bank-Accaut\Bank\Bank\bin\Debug\EntityFramework.SqlServer.dll
+D:\Marat C#\Bank-Accaut\Bank\Bank\bin\Debug\EntityFramework.xml
+D:\Marat C#\Bank-Accaut\Bank\Bank\bin\Debug\EntityFramework.SqlServer.xml
+D:\Marat C#\Bank-Accaut\Bank\Bank\bin\Debug\ru\EntityFramework.resources.dll
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\DataView\DataViewPage.g.cs
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Home\LoginPage.g.cs
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Windows\MainWindow.g.cs
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\App.g.cs
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank_Content.g.cs
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank_MarkupCompile.cache
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank_MarkupCompile.lref
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\DataView\DataViewPage.baml
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Home\LoginPage.baml
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Windows\MainWindow.baml
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.g.resources
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.exe
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.pdb
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\AddDate\AddDateView.g.cs
+D:\Marat C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\AddDate\AddDateView.baml
