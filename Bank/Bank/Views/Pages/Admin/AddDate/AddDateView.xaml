@@ -8,10 +8,10 @@
       d:DesignHeight="700" d:DesignWidth="1300"
       Title="AddDateView">
     <Page.Resources>
-        
-    <Style TargetType="TextBlock">
-        <Setter Property="FontSize" Value="25"/>
-        <Setter Property="FontWeight" Value="DemiBold"/>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
             <Setter Property="Width" Value="300"/>
         </Style>
         <Style TargetType="TextBox">
@@ -30,81 +30,85 @@
         <Grid Grid.Row="0">
 
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left">
-                <Button x:Name="ButtonBack" Content="Назад" Width="135" Height="35" Click="ButtonBack_Click"/>
+                <Button x:Name="ButtonBack" Content="Назад" Width="144" Height="30" Click="ButtonBack_Click"/>
             </StackPanel>
-            
+
         </Grid>
         <!--Ввод Данных-->
         <Grid Grid.Row="1">
 
-            <StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="50 0 0 0">
-                    <TextBlock Text="Имя"/>
-                    <TextBox x:Name="TxbName" Width="300"/>
-                </StackPanel>
-                
-                <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
-                    <TextBlock Text="Фамилия" />
-                    <TextBox x:Name="TxbFirsName" Width="300"/>
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
-
-                    <TextBlock Text="Отчество" />
-                    <TextBox  x:Name="TxbPatronymic" Width="300"/>
-
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
-                    <TextBlock Text="Дата Выдачи" />
-                    <DatePicker Width="300" x:Name="DateResults"/>
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
-
-                    <TextBlock Text="Пол"/>
-                    <ComboBox x:Name="CmbGender" Width="300" Height="33"/>
-
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
-
-                    <TextBlock Text="Дата Рождения"/>
-                    <DatePicker Width="300" x:Name="DateBritch"/>
-
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
-
-                    <TextBlock Text="Место рождения"/>
-                    <TextBox/>
-
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
-
-                    <TextBlock Text="Серия паспорта"/>
-                    <TextBox />
-
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
-
-                    <TextBlock Text="Номер паспорта"/>
-                    <TextBox />
-
-                </StackPanel>
-                
+            <StackPanel Orientation="Horizontal">
                 <StackPanel>
 
-                    <Button Width="200" Height="35" Content="Добавить" />
+                    <StackPanel Orientation="Horizontal" Margin="50 0 0 0">
+                        <TextBlock Text="Имя"/>
+                        <TextBox x:Name="TxbName" Width="300"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
+                        <TextBlock Text="Фамилия" />
+                        <TextBox x:Name="TxbFirsName" Width="300"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
+
+                        <TextBlock Text="Отчество" />
+                        <TextBox  x:Name="TxbPatronymic" Width="300"/>
+
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
+                        <TextBlock Text="Дата Выдачи" />
+                        <DatePicker Width="300" x:Name="DateResults"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
+
+                        <TextBlock Text="Пол"/>
+                        <ComboBox x:Name="CmbGender" Width="300" Height="33"/>
+
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
+
+                        <TextBlock Text="Дата Рождения"/>
+                        <DatePicker Width="300" x:Name="DateBritch"/>
+
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
+
+                        <TextBlock Text="Место рождения"/>
+                        <TextBox x:Name="TxbBritch"/>
+
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
+
+                        <TextBlock Text="Серия паспорта"/>
+                        <TextBox x:Name="TxbPassportSerial" />
+
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="50 5 0 0">
+
+                        <TextBlock Text="Номер паспорта"/>
+                        <TextBox x:Name="TxbPassportNumber"/>
+
+                    </StackPanel>
+
+                </StackPanel>
+
+                <StackPanel Margin="20 260 0 0">
+
+                    <Button Width="200" Height="35" Content="Добавить" Margin="0 0 0 5" x:Name="ButtonAdd" Click="ButtonAdd_Click"/>
+                    <Button Width="200" Height="35" Content="Очистить" x:Name="ButtonClear" Click="ButtonClear_Click" />
 
                 </StackPanel>
 
             </StackPanel>
-            
+
         </Grid>
-       
+
     </Grid>
 </Page>

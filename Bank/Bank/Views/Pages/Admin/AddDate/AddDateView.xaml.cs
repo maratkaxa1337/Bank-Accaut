@@ -30,5 +30,20 @@ namespace Bank.Views.Pages.Admin.AddDate
         {
             NavigationService.Navigate(new DataViewPage());
         }
+
+        private void ButtonClear_Click(object sender, RoutedEventArgs e)
+        {
+            TxbBritch.Text = "";
+            TxbFirsName.Text = "";
+            TxbName.Text = "";
+            TxbPassportNumber.Text = "";
+            TxbPassportSerial.Text = "";
+            TxbPatronymic.Text = "";
+        }
+
+        private void ButtonAdd_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

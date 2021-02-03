@@ -23,7 +23,6 @@
     <Property Name="BirthPlace" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="PassportSeries" Type="Int32" Nullable="false" />
     <Property Name="PassportNumber" Type="Int32" Nullable="false" />
-    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
     <NavigationProperty Name="Bank" Relationship="Self.FK_Bank_IDPassword_Passport_ID" FromRole="Passport" ToRole="Bank" />
   </EntityType>
   <EntityType Name="Role">

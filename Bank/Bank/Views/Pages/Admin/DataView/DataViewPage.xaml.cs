@@ -1,5 +1,7 @@
 ﻿using Bank.Context;
 using Bank.Model;
+using Bank.Views.Pages.Admin.AddDate;
+using Bank.Views.Pages.Home;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,7 +41,7 @@ namespace Bank.Views.Pages.Admin.DataView
 
         private void ButtonBack_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.GoBack();
+            NavigationService.Navigate(new LoginPage());
         }
 
         private void ButtonRemove_Click(object sender, RoutedEventArgs e)
@@ -70,7 +72,7 @@ namespace Bank.Views.Pages.Admin.DataView
 
         private void ButtonAdd_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new AddDateView());
         }
 
         private void ButtonEdit_Click(object sender, RoutedEventArgs e)

@@ -31,7 +31,6 @@ namespace Bank.Model
         public string BirthPlace { get; set; }
         public int PassportSeries { get; set; }
         public int PassportNumber { get; set; }
-        public byte[] Image { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Bank> Bank { get; set; }
