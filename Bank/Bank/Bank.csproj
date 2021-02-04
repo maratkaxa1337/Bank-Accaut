@@ -112,6 +112,9 @@
     <Compile Include="Model\SignIn.cs">
       <DependentUpon>Models.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\sysdiagrams.cs">
+      <DependentUpon>Models.tt</DependentUpon>
+    </Compile>
     <Compile Include="Views\Pages\Admin\AddDate\AddDateView.xaml.cs">
       <DependentUpon>AddDateView.xaml</DependentUpon>
     </Compile>

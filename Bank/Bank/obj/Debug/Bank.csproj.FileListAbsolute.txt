@@ -80,3 +80,31 @@ E:\Сбор моих программы на Любом языке\C#\Bank-Accau
 E:\Сбор моих программы на Любом языке\C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
 E:\Сбор моих программы на Любом языке\C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.exe
 E:\Сбор моих программы на Любом языке\C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.pdb
+E:\Program C#\Bank-Accaut\Bank\Bank\bin\Debug\Bank.exe.config
+E:\Program C#\Bank-Accaut\Bank\Bank\bin\Debug\Bank.exe
+E:\Program C#\Bank-Accaut\Bank\Bank\bin\Debug\Bank.pdb
+E:\Program C#\Bank-Accaut\Bank\Bank\bin\Debug\EntityFramework.dll
+E:\Program C#\Bank-Accaut\Bank\Bank\bin\Debug\EntityFramework.SqlServer.dll
+E:\Program C#\Bank-Accaut\Bank\Bank\bin\Debug\EntityFramework.xml
+E:\Program C#\Bank-Accaut\Bank\Bank\bin\Debug\EntityFramework.SqlServer.xml
+E:\Program C#\Bank-Accaut\Bank\Bank\bin\Debug\ru\EntityFramework.resources.dll
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\AddDate\AddDateView.g.cs
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\DataView\DataViewPage.g.cs
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Home\LoginPage.g.cs
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Windows\MainWindow.g.cs
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\App.g.cs
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank_Content.g.cs
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank_MarkupCompile.cache
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank_MarkupCompile.lref
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\AddDate\AddDateView.baml
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\DataView\DataViewPage.baml
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Home\LoginPage.baml
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Windows\MainWindow.baml
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.g.resources
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.exe
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.pdb
