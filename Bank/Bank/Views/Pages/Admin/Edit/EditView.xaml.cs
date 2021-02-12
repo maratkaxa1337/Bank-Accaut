@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bank.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,43 @@ namespace Bank.Views.Pages.Admin.Edit
     /// </summary>
     public partial class EditView : Page
     {
-        public EditView()
+        private Passport selectitem;
+
+        public EditView(Passport selectitem)
         {
             InitializeComponent();
+            this.selectitem = selectitem;
+            TxbFirst.Text = selectitem.FirstName;
+            TxbLastName.Text = selectitem.LastName;
+            TxbPatronymic.Text = selectitem.Patronymic;
+            DateResults.SelectedDate = selectitem.DateResults;
+            TxbIssuedWhom.Text = selectitem.IssuedWhom;
+            TxbGender.Text = selectitem.Gender;
+            TxbBritch.Text = selectitem.BirthPlace;
+            DateBritch.SelectedDate = selectitem.DateBrith;
+            TxbPassportSerial.Text = Convert.ToString(selectitem.PassportSeries);
+            TxbPassportNumber.Text = Convert.ToString(selectitem.PassportNumber);
+
+        }
+
+        private void ButtonClear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonEdit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonBack_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
         }
     }
 }

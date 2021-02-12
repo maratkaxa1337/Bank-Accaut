@@ -1,6 +1,7 @@
 ﻿using Bank.Context;
 using Bank.Model;
 using Bank.Views.Pages.Admin.AddDate;
+using Bank.Views.Pages.Admin.Edit;
 using Bank.Views.Pages.Home;
 using System;
 using System.Collections.Generic;
@@ -75,9 +76,10 @@ namespace Bank.Views.Pages.Admin.DataView
             NavigationService.Navigate(new AddDateView());
         }
 
+
         private void ButtonEdit_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new EditView((Passport)DataView.SelectedItem));
         }
 
         private void ButtonInfo_Click(object sender, RoutedEventArgs e)
