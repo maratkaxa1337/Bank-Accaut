@@ -1,4 +1,6 @@
-﻿using Bank.Views.Pages.Admin.DataView;
+﻿using Bank.Context;
+using Bank.Model;
+using Bank.Views.Pages.Admin.DataView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +26,7 @@ namespace Bank.Views.Pages.Admin.AddDate
         public AddDateView()
         {
             InitializeComponent();
+            
         }
 
         private void ButtonBack_Click(object sender, RoutedEventArgs e)
@@ -34,14 +37,44 @@ namespace Bank.Views.Pages.Admin.AddDate
         private void ButtonClear_Click(object sender, RoutedEventArgs e)
         {
             TxbBritch.Text = "";
-            TxbFirsName.Text = "";
-            TxbName.Text = "";
+            TxbFirst.Text = "";
+            TxbLastName.Text = "";
             TxbPassportNumber.Text = "";
             TxbPassportSerial.Text = "";
             TxbPatronymic.Text = "";
         }
 
         private void ButtonAdd_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Passport passport1 = new Passport();
+                {
+                    passport1.LastName = TxbLastName.Text;
+                    passport1.FirstName = TxbFirst.Text;
+                    passport1.Patronymic = TxbPatronymic.Text;
+                    passport1.DateResults = (DateTime)DateResults.SelectedDate;
+                    passport1.IssuedWhom = TxbIssuedWhom.Text;
+                    passport1.Gender = TxbGender.Text;
+                    passport1.DateBrith = (DateTime)DateBritch.SelectedDate;
+                    passport1.BirthPlace = TxbBritch.Text;
+                    passport1.PassportSeries = Convert.ToInt32(TxbPassportSerial.Text);
+                    passport1.PassportNumber = Convert.ToInt32(TxbPassportNumber.Text);
+
+
+                ConnectContext.db.Passport.Add(passport1);
+                ConnectContext.db.SaveChanges();
+                MessageBox.Show("Данные успешно сохранены");
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message, ex.Source);
+            }
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
         {
 
         }

@@ -39,20 +39,8 @@
     <Property Name="Password" Type="nvarchar" MaxLength="30" Nullable="false" />
     <Property Name="IDRole" Type="nchar" MaxLength="1" Nullable="false" />
   </EntityType>
-  <EntityType Name="sysdiagrams">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
-    <Property Name="principal_id" Type="int" Nullable="false" />
-    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="version" Type="int" />
-    <Property Name="definition" Type="varbinary(max)" />
-  </EntityType>
   <Association Name="FK_Bank_IDPassword_Passport_ID">
-    <End Role="Passport" Type="Self.Passport" Multiplicity="1">
-      <OnDelete Action="Cascade" />
-    </End>
+    <End Role="Passport" Type="Self.Passport" Multiplicity="1" />
     <End Role="Bank" Type="Self.Bank" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Passport">
@@ -80,7 +68,6 @@
     <EntitySet Name="Passport" EntityType="Self.Passport" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="SignIn" EntityType="Self.SignIn" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_Bank_IDPassword_Passport_ID" Association="Self.FK_Bank_IDPassword_Passport_ID">
       <End Role="Passport" EntitySet="Passport" />
       <End Role="Bank" EntitySet="Bank" />

@@ -72,6 +72,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Pages\Admin\Edit\EditView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Pages\Home\LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -112,14 +116,14 @@
     <Compile Include="Model\SignIn.cs">
       <DependentUpon>Models.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\sysdiagrams.cs">
-      <DependentUpon>Models.tt</DependentUpon>
-    </Compile>
     <Compile Include="Views\Pages\Admin\AddDate\AddDateView.xaml.cs">
       <DependentUpon>AddDateView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Pages\Admin\DataView\DataViewPage.xaml.cs">
       <DependentUpon>DataViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Admin\Edit\EditView.xaml.cs">
+      <DependentUpon>EditView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Pages\Home\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
