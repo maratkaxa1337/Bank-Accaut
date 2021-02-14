@@ -1,4 +1,5 @@
-﻿using Bank.Model;
+﻿using Bank.Context;
+using Bank.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,7 +48,26 @@ namespace Bank.Views.Pages.Admin.Edit
 
         private void ButtonEdit_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+            Passport edit = ConnectContext.db.Passport.FirstOrDefault(Item => Item.ID == selectitem.ID);
+            edit.FirstName = TxbFirst.Text;
+            edit.LastName = TxbLastName.Text;
+            edit.Patronymic = TxbPatronymic.Text;
+            edit.DateResults = DateResults.DisplayDate;
+            edit.IssuedWhom = TxbIssuedWhom.Text;
+            edit.Gender = TxbGender.Text;
+            edit.DateBrith = DateBritch.DisplayDate;
+            edit.PassportSeries = Convert.ToInt32(TxbPassportSerial.Text);
+            edit.PassportNumber = Convert.ToInt32(TxbPassportNumber.Text);
+                MessageBox.Show("Успешное изминение данных", "Программа", MessageBoxButton.OK, MessageBoxImage.Information);
 
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
