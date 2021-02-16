@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\Сбор моих программы на Любом языке\C#\Bank-Accaut\Bank\Bank\obj\Debug\
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\
 Bank
 none
 false
 DEBUG;TRACE
-E:\Сбор моих программы на Любом языке\C#\Bank-Accaut\Bank\Bank\App.xaml
+E:\Program C#\Bank-Accaut\Bank\Bank\App.xaml
 51219563658
 21109580200
 18-1059669481
-18-122646733
+181656055509
 Views\Pages\Admin\AddDate\AddDateView.xaml;Views\Pages\Admin\DataView\DataViewPage.xaml;Views\Pages\Admin\Edit\EditView.xaml;Views\Pages\Home\LoginPage.xaml;Views\Windows\MainWindow.xaml;
 
-False
+True
 

@@ -110,3 +110,5 @@ E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.exe
 E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Bank.pdb
 E:\Сбор моих программы на Любом языке\C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\Edit\EditView.g.cs
 E:\Сбор моих программы на Любом языке\C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\Edit\EditView.baml
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\Edit\EditView.g.cs
+E:\Program C#\Bank-Accaut\Bank\Bank\obj\Debug\Views\Pages\Admin\Edit\EditView.baml

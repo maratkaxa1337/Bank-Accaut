@@ -79,5 +79,10 @@ namespace Bank.Views.Pages.Admin.Edit
         {
             NavigationService.GoBack();
         }
+
+        private void TxbPassportSerial_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            e.Handled = "0123456789".IndexOf(e.Text) < 0;
+        }
     }
 }

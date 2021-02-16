@@ -79,7 +79,15 @@ namespace Bank.Views.Pages.Admin.DataView
 
         private void ButtonEdit_Click(object sender, RoutedEventArgs e)
         {
+            if (DataView.SelectedItem != null)
+            {
             NavigationService.Navigate(new EditView((Passport)DataView.SelectedItem));
+
+            }
+            else
+            {
+                MessageBox.Show("Элемент не выбран");
+            }
         }
 
         private void ButtonInfo_Click(object sender, RoutedEventArgs e)
